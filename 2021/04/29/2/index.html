@@ -4,7 +4,7 @@
 
 <head>
   
-  <title>2 - Hexo</title>
+  <title>谈谈HTML涉及到的面试题 - Hexo</title>
   <meta charset="UTF-8">
   <meta name="description" content="">
   <meta name="keywords" content="">
@@ -13,19 +13,22 @@
   
 
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-  <meta property="og:type" content="article">
-<meta property="og:title" content="2">
-<meta property="og:url" content="http://example.com/2021/07/25/2/index.html">
+  <meta name="description" content="在众多互联网公司的面试题目中，看似HTML所涉及到的内容寥寥可数，但却是面试者不容忽视的，以下我将把出现频率较多的HTML面试题进行汇总： src 和 href 的区别 src用于替换当前元素，目的是把资源下载到页面中，而href是超文本引用，建立与目标文件的联系。 浏览器解析 href 不会阻塞对文档的处理，src 会阻塞对文档的处理。  script 标签为什么要放在 body 标签的底部因为">
+<meta property="og:type" content="article">
+<meta property="og:title" content="谈谈HTML涉及到的面试题">
+<meta property="og:url" content="http://example.com/2021/04/29/2/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="在众多互联网公司的面试题目中，看似HTML所涉及到的内容寥寥可数，但却是面试者不容忽视的，以下我将把出现频率较多的HTML面试题进行汇总： src 和 href 的区别 src用于替换当前元素，目的是把资源下载到页面中，而href是超文本引用，建立与目标文件的联系。 浏览器解析 href 不会阻塞对文档的处理，src 会阻塞对文档的处理。  script 标签为什么要放在 body 标签的底部因为">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2021-07-25T01:44:21.000Z">
-<meta property="article:modified_time" content="2021-07-25T01:44:21.891Z">
+<meta property="article:published_time" content="2021-04-29T11:44:21.000Z">
+<meta property="article:modified_time" content="2021-07-25T04:44:33.806Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="HTML">
 <meta name="twitter:card" content="summary">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/highlight.js@9.15.8/styles/atom-one-dark.css,npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css,gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css,npm/hexo-theme-nexmoe@latest/source/lib/mdui_043tiny/css/mdui.css,npm/hexo-theme-nexmoe@latest/source/lib/iconfont/iconfont.css?v=233" crossorigin>
-  <link rel="stylesheet" href="/css/style.css?v=1627183635625">
+  <link rel="stylesheet" href="/css/style.css?v=1627188294000">
   
-  <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1627183635625">
+  <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1627188294001">
 <meta name="generator" content="Hexo 5.4.0"></head>
 
 <body class="mdui-drawer-body-left">
@@ -127,27 +130,60 @@
   <article>
     
         <div class="nexmoe-post-cover" style="padding-bottom: 66.66666666666666%;"> 
-            <img data-src="https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/cover/5c3aec85a4343.jpg" data-sizes="auto" alt="2" class="lazyload">
-            <h1>2</h1>
+            <img data-src="https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/cover/5c3aec85a4343.jpg" data-sizes="auto" alt="谈谈HTML涉及到的面试题" class="lazyload">
+            <h1>谈谈HTML涉及到的面试题</h1>
         </div>
     
     
     <div class="nexmoe-post-meta nexmoe-rainbow" style="margin:10px 0!important;">
-    <a><i class="nexmoefont icon-calendar-fill"></i>2021年07月25日</a>
-    <a><i class="nexmoefont icon-areachart"></i>0 字</a>
-    <a><i class="nexmoefont icon-time-circle-fill"></i>大概 1 分钟</a>
+    <a><i class="nexmoefont icon-calendar-fill"></i>2021年04月29日</a>
+    <a><i class="nexmoefont icon-areachart"></i>498 字</a>
+    <a><i class="nexmoefont icon-time-circle-fill"></i>大概 2 分钟</a>
 </div>
 
     
 
-    
+    <p>在众多互联网公司的面试题目中，看似HTML所涉及到的内容寥寥可数，但却是面试者不容忽视的，以下我将把出现频率较多的HTML面试题进行汇总：</p>
+<h2 id="src-和-href-的区别"><a href="#src-和-href-的区别" class="headerlink" title="src 和 href 的区别"></a>src 和 href 的区别</h2><ul>
+<li>src用于替换当前元素，目的是把资源下载到页面中，而href是超文本引用，建立与目标文件的联系。</li>
+<li>浏览器解析 href 不会阻塞对文档的处理，src 会阻塞对文档的处理。</li>
+</ul>
+<h2 id="script-标签为什么要放在-body-标签的底部"><a href="#script-标签为什么要放在-body-标签的底部" class="headerlink" title="script 标签为什么要放在 body 标签的底部"></a>script 标签为什么要放在 body 标签的底部</h2><p>因为浏览器在渲染html的时候是从上到下执行的，当遇到js文件的时候就会停止当前页面的渲染，转而去下载js文件，如果将script标签放在头部，在文件很大的情况下将导致首屏加载时间延长，影响用户体验。解决办法：</p>
+<ul>
+<li>将script标签放在body的底部</li>
+<li>通过defer、async属性将js文件转为异步加载</li>
+</ul>
+<h2 id="HTML5新特性"><a href="#HTML5新特性" class="headerlink" title="HTML5新特性"></a>HTML5新特性</h2><p>见”细数HTML5新特性”一文</p>
+<h2 id="从输入网址（URL）到页面显示的过程？"><a href="#从输入网址（URL）到页面显示的过程？" class="headerlink" title="从输入网址（URL）到页面显示的过程？"></a>从输入网址（URL）到页面显示的过程？</h2><ol>
+<li><p>域名解析，对输入的url进行dns域名解析，得到对应的ip地址</p>
+</li>
+<li><p>根据这个ip地址，找到对应的服务器，发起tcp连接（三次握手）</p>
+</li>
+<li><p>建立tcp连接后发送http请求</p>
+</li>
+<li><p>服务器响应http请求，浏览器得到html代码</p>
+</li>
+<li><p>浏览器解析html代码，并请求html代码中的js、css、图片等资源</p>
+</li>
+<li><p>浏览器对页面进行渲染并呈现给用户</p>
+</li>
+<li><p>断开TCP连接（四次挥手）</p>
+</li>
+</ol>
+<h2 id="html页面渲染过程"><a href="#html页面渲染过程" class="headerlink" title="html页面渲染过程"></a>html页面渲染过程</h2><ol>
+<li>解析html文件，创建DOM树。</li>
+<li>解析css，生成CSSOM（CSS Object Model），即CSS对象模型dom和css合并，构建渲染树（render tree）。</li>
+<li>layout 布局（渲染）：依照盒子模型，计算每个节点在屏幕中的尺寸和位置。</li>
+<li>painting 绘制（渲染）：按照计算出来的规则，通过显卡，将内容画到屏幕上。</li>
+</ol>
+
   </article>
 
   
     
   <div class="nexmoe-post-copyright">
     <strong>Author：</strong>John Doe<br>
-    <strong>Link：</strong><a href="http://example.com/2021/07/25/2/" title="http:&#x2F;&#x2F;example.com&#x2F;2021&#x2F;07&#x2F;25&#x2F;2&#x2F;" target="_blank" rel="noopener">http:&#x2F;&#x2F;example.com&#x2F;2021&#x2F;07&#x2F;25&#x2F;2&#x2F;</a><br>
+    <strong>Link：</strong><a href="http://example.com/2021/04/29/2/" title="http:&#x2F;&#x2F;example.com&#x2F;2021&#x2F;04&#x2F;29&#x2F;2&#x2F;" target="_blank" rel="noopener">http:&#x2F;&#x2F;example.com&#x2F;2021&#x2F;04&#x2F;29&#x2F;2&#x2F;</a><br>
     
       <strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可
     
@@ -158,6 +194,8 @@
   
   <div class="nexmoe-post-meta nexmoe-rainbow">
     
+    
+        <a class="nexmoefont icon-tag-fill -none-link" href="/tags/HTML/" rel="tag">HTML</a>
     
 </div>
 
@@ -198,7 +236,7 @@
 
  
 
-<script async src="/js/app.js?v=1627183635626"></script>
+<script async src="/js/app.js?v=1627188294002"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"></script>
 <script>
