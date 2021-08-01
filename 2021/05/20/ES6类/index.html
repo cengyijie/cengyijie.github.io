@@ -13,22 +13,22 @@
   
 
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-  <meta name="description" content="讲一讲ES6中的类12345678910class Point &amp;#123;  constructor(x, y) &amp;#123;    this.x &#x3D; x;    this.y &#x3D; y;  &amp;#125;  toString() &amp;#123;    return &amp;#x27;(&amp;#x27; + this.x + &amp;#x27;, &amp;#x27; + this.y + &amp;#x27;)&amp;#x27;;">
+  <meta name="description" content="12345678910class Point &amp;#123;  constructor(x, y) &amp;#123;    this.x &#x3D; x;    this.y &#x3D; y;  &amp;#125;  toString() &amp;#123;    return &amp;#x27;(&amp;#x27; + this.x + &amp;#x27;, &amp;#x27; + this.y + &amp;#x27;)&amp;#x27;;  &amp;#125;&amp;#">
 <meta property="og:type" content="article">
 <meta property="og:title" content="讲一讲ES6中的类">
 <meta property="og:url" content="http://example.com/2021/05/20/ES6%E7%B1%BB/index.html">
 <meta property="og:site_name" content="小曾的博客">
-<meta property="og:description" content="讲一讲ES6中的类12345678910class Point &amp;#123;  constructor(x, y) &amp;#123;    this.x &#x3D; x;    this.y &#x3D; y;  &amp;#125;  toString() &amp;#123;    return &amp;#x27;(&amp;#x27; + this.x + &amp;#x27;, &amp;#x27; + this.y + &amp;#x27;)&amp;#x27;;">
+<meta property="og:description" content="12345678910class Point &amp;#123;  constructor(x, y) &amp;#123;    this.x &#x3D; x;    this.y &#x3D; y;  &amp;#125;  toString() &amp;#123;    return &amp;#x27;(&amp;#x27; + this.x + &amp;#x27;, &amp;#x27; + this.y + &amp;#x27;)&amp;#x27;;  &amp;#125;&amp;#">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-05-20T07:42:53.000Z">
-<meta property="article:modified_time" content="2021-08-01T07:44:34.795Z">
+<meta property="article:modified_time" content="2021-08-01T07:54:47.290Z">
 <meta property="article:author" content="zengyj">
 <meta property="article:tag" content="JS">
 <meta name="twitter:card" content="summary">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/highlight.js@9.15.8/styles/atom-one-dark.css,npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css,gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css,npm/hexo-theme-nexmoe@latest/source/lib/mdui_043tiny/css/mdui.css,npm/hexo-theme-nexmoe@latest/source/lib/iconfont/iconfont.css?v=233" crossorigin>
-  <link rel="stylesheet" href="/css/style.css?v=1627804393787">
+  <link rel="stylesheet" href="/css/style.css?v=1627804500496">
   
-  <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1627804393787">
+  <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1627804500496">
 <meta name="generator" content="Hexo 5.4.0"></head>
 
 <body class="mdui-drawer-body-left">
@@ -145,7 +145,7 @@
 
     <span id="more"></span>
 
-<h1 id="讲一讲ES6中的类"><a href="#讲一讲ES6中的类" class="headerlink" title="讲一讲ES6中的类"></a>讲一讲ES6中的类</h1><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Point</span> </span>&#123;</span><br><span class="line">  <span class="function"><span class="title">constructor</span>(<span class="params">x, y</span>)</span> &#123;</span><br><span class="line">    <span class="built_in">this</span>.x = x;</span><br><span class="line">    <span class="built_in">this</span>.y = y;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="title">toString</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">&#x27;(&#x27;</span> + <span class="built_in">this</span>.x + <span class="string">&#x27;, &#x27;</span> + <span class="built_in">this</span>.y + <span class="string">&#x27;)&#x27;</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Point</span> </span>&#123;</span><br><span class="line">  <span class="function"><span class="title">constructor</span>(<span class="params">x, y</span>)</span> &#123;</span><br><span class="line">    <span class="built_in">this</span>.x = x;</span><br><span class="line">    <span class="built_in">this</span>.y = y;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="title">toString</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">&#x27;(&#x27;</span> + <span class="built_in">this</span>.x + <span class="string">&#x27;, &#x27;</span> + <span class="built_in">this</span>.y + <span class="string">&#x27;)&#x27;</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p>上述代码中定义了一个类，constructor代表构造函数，上述还定义了一个toString()方法，前面不需要加上function这个关键字，另外，方法与方法之间不需要逗号分隔，加了会报错。</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">const p = new Point();</span><br></pre></td></tr></table></figure>
@@ -262,7 +262,7 @@
 
  
 
-<script async src="/js/app.js?v=1627804393789"></script>
+<script async src="/js/app.js?v=1627804500498"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"></script>
 <script>
